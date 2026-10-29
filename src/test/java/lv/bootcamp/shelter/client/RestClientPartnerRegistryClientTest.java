@@ -11,8 +11,8 @@ import org.springframework.web.client.RestClient;
 
 import java.io.IOException;
 
-import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
-import static org.assertj.core.api.AssertionsForClassTypes.assertThatThrownBy;
+import static org.assertj.core.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThatThrownBy;
 
 class RestClientPartnerRegistryClientTest {
 
